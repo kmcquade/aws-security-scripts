@@ -8,11 +8,11 @@ import os
 import click
 from os.path import isfile, isdir
 from pathlib import Path
-from policy_sentry.shared.actions import get_service_from_action
-from policy_sentry.shared.analyze import analyze_by_access_level
+from policy_sentry.util.actions import get_service_from_action
+from policy_sentry.analysis.analyze import analyze_by_access_level
 from policy_sentry.shared.constants import DATABASE_FILE_PATH
 from policy_sentry.shared.database import connect_db
-from policy_sentry.shared.file import list_files_in_directory
+from policy_sentry.util.file import list_files_in_directory
 from policy_sentry.command.initialize import initialize
 from common.awsinfo import is_aws_managed_policy
 

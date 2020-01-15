@@ -9,7 +9,7 @@ verify_ssl = true
 boto3 = "*"
 botocore = "*"
 click = "*"
-policy_sentry = ">=0.6.3"
+policy_sentry = "==0.6.7"
 netaddr = "*"
 schema = "*"
 

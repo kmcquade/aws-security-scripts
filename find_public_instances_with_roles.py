@@ -4,7 +4,7 @@ find_public_instances_with_roles.py: Finds public EC2 instances with instance pr
 """
 
 import click
-from policy_sentry.shared.arns import get_resource_path_from_arn
+from policy_sentry.util.arns import get_resource_path_from_arn
 import json
 import os
 from pathlib import Path
